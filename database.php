@@ -1,6 +1,6 @@
 <?php
 //connect to mysql
-	$conn = mysqli_connect("localhost", "root", "cow.red.bin" , "shoutit");
+	$conn = mysqli_connect("localhost", "root", "xxxxxxxxx" , "shoutit");
 
 //test connection
 	if (mysqli_connect_errno()){
