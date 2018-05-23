@@ -1,0 +1,90 @@
+html{
+	font-family: Helvetica;
+	font-size: 110%; 
+	line-height: 1.4;
+	background: #f4f4f4;
+}
+
+#page-container{
+	width: 60%;
+	min-height: 400px;
+	margin: 50px auto;
+	background-color: #333;
+	overflow: auto;
+}
+
+header h1{
+	font-size: 2rem;
+	font-weight: 700;
+	color: #fff;
+	padding: .50em;
+	border-bottom: 1px solid #fff;
+}
+
+.shouts{
+	width: 90%;
+	background-color: #f4f4f4;
+	height: 400px;
+	margin: 20px auto;
+	overflow: auto;
+}
+
+.shout{
+	list-style: none;
+	padding: 12px;
+	border-bottom: 1px #ccc dotted;
+}
+
+.shout span{
+	color:#aaa;
+}
+
+.shout h2{
+	font-weight: bold;
+}
+
+.banner{
+	background: #888;
+	font-size: 1.2rem;
+	font-weight: 700;
+	color: #fff;
+	padding: .50em;
+	border-bottom: 1px solid #fff;
+}
+
+.input{
+	width: 90%;
+	min-height: 80px;
+	margin: auto;
+	padding: 1em;
+}
+
+.input input[type='text']{
+	height: 25px;
+	width: 48%;
+	padding: 3px;
+	margin-bottom: 20px;
+	border: 1px solid #666;
+}
+
+@media only screen and (max-width: 768px){
+	.input input[type='text']{
+		width: 98%;
+		margin-right: 10px;
+	}
+}
+
+.input .btn{
+	padding: 1em;
+	margin-bottom: 20px;
+	width: 100%;
+	margin: 10px auto;
+	font-size: 1.2rem;
+}
+
+.error{
+	background: red;
+	color: #fff;
+	padding: 5px;
+	margin-bottom: 20px;
+}
